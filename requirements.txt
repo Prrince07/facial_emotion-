@@ -1,0 +1,20 @@
+# Core UI
+streamlit==1.38.0
+
+# Computer vision
+opencv-python==4.10.0.84
+
+# Emotion classification (pretrained model)
+deepface==0.0.93
+tensorflow==2.16.2
+
+# Array / image handling
+numpy==1.26.4
+pillow==10.4.0
+
+# Note on Python version:
+# DeepFace + TensorFlow are most reliable on Python 3.9 - 3.11.
+# Python 3.12+ can have compatibility issues with some TensorFlow builds.
+# If you're on Python 3.12/3.13 and hit install errors, either:
+#   1) install Python 3.11 in a separate venv, or
+#   2) try tensorflow>=2.16 which has partial 3.12 support (may still fail on some platforms).
